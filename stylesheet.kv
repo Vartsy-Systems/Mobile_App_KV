@@ -1,0 +1,49 @@
+
+MDScreen:
+    MDBottomNavigation:
+
+
+
+        MDBottomNavigationItem:
+            name : 'screen 1'
+            icon : 'home'
+
+
+
+
+        MDBottomNavigationItem:
+            name : 'screen 2'
+            icon : 'wallet'
+
+            MDCard:
+                orientation: "vertical"
+                padding: 0, 0, 0 , "36dp"
+                size_hint: .4, .15
+                pos_hint: {"center_x": .25, "center_y": .7}
+                elevation: 1
+
+                MDLabel:
+                    icon_left: 'home'
+                    text : 'Cash Wallet'
+                    halign : 'center'
+                    text_color : 'blue'
+            MDCard:
+                orientation: "vertical"
+                padding: 0, 0, 0 , "36dp"
+                size_hint: .4, .15
+                pos_hint: {"center_x": .75, "center_y": .7}
+                elevation: 1
+                MDLabel:
+                    icon_left: 'home'
+                    text : 'Cash Wallet'
+                    halign : 'center'
+                    text_color : 'blue'
+
+
+        MDBottomNavigationItem:
+            name : 'screen 3'
+            icon : 'bell-ring'
+
+        MDBottomNavigationItem:
+            name : 'screen 4'
+            icon : 'account-cog'
